@@ -1,0 +1,89 @@
+body {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    background-color:yellow;
+    border-radius: 7px;
+}
+
+#portrait {
+    float: right;
+    max-width: 165px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 7px;
+    filter: drop-shadow(3px 2px 4px black)
+}
+
+h1 {
+    color: rgb(7, 219, 0);
+    margin-left: -100px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 36pt;
+    filter: drop-shadow(3px 2px 4px rgb(4, 0, 12))
+}
+
+h2 {
+    font-family: sans-serif;
+    border-bottom: 2px solid grey;
+    padding-bottom: 5px;
+}
+
+.dates,
+#copyright {
+    color: rgb(14, 122, 0);
+    text-align: center;
+}
+
+#copyright {
+    padding-top: 15px;
+}
+
+.dates {
+    padding-top: 5px;
+    padding-bottom: 12px;
+}
+
+nav {
+    padding-bottom: 60px;
+    padding-left: 60px;
+}
+
+#copyright a {
+    color: rgb(27, 7, 206);
+}
+
+#copyright a:hover {
+    color: rgb(14, 122, 0);
+}
+
+#currentDate,
+#lastUpdated {
+    color: rgb(14, 122, 0);
+}
+
+.dates {
+    font-family: monospace;
+    font-size: 1.13em;
+}
+
+@media screen and (max-width: 560px) {
+    #portrait {
+        float: none;
+        margin-left: 10px;
+    }
+
+    body {
+        max-width: 380px;
+    }
+
+    h1 {
+        padding-left: 150px;
+    }
+}
