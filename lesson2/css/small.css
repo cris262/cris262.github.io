@@ -1,0 +1,119 @@
+/* small css for Week 2 Design Principles file */
+
+body {
+	font-size: 16px;
+	font-family: Lucida Handwriting;
+}
+
+header {
+	background-color: yellow;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	line-height: .75;
+	margin: .5rem;
+	border-radius: 5px;
+}
+
+footer {
+	background-color: yellow;
+	color:  rgba(7, 153, 2, 0.842);
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	line-height: 1.5;
+	margin: .5rem;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 1.13em;
+}
+
+p {
+    font-family: lobster;
+    font-size: 1rem;
+	color: black;
+	line-height: 2.5;
+}
+
+/* phone or baseline views **************************/
+main {
+	max-width: 967px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+
+a {
+	color: rgb(6, 10, 243);
+}
+
+a:hover {
+	color: red;
+}
+
+/* main section h2 {
+	color: #ffffff;
+}
+
+main section h3 {
+	color: #542437;
+} */
+
+main section {
+	margin: 0.5rem;
+	/* border: 1px solid #bbb; */
+	padding: 0 1rem;
+	background-color: white;
+    border-radius: 5px;
+    filter: drop-shadow(3px 2px 4px rgba(72, 5, 255, 0.815))
+}
+
+main section:nth-child(1) {
+	display: block;
+	margin: 0.5rem;
+}
+
+main section:nth-child(2) {
+	display: block;
+	margin: 0.5rem;
+}
+
+main section:nth-child(3) {
+	display: block;
+	margin: 0.5rem;
+}
+
+main section picture img {
+	/* width: 100%; */
+	max-width: 275px;
+	height: auto;
+}
+
+h1 {
+	font-size: 2.25rem;
+	letter-spacing: .45rem;
+	line-height: 1.25;
+	color: rgb(7, 219, 0);
+}
+
+h2 {
+	font-size: 1rem;
+	letter-spacing: .025rem;
+	line-height: 0;
+	color: green;
+}
+
+h3 {
+	font-size: 1.25rem;
+	letter-spacing: .15rem;
+	line-height: 1.0;
+	color: green;
+}
+
+h4 {
+	font-size: 1rem;
+	letter-spacing: .025rem;
+	line-height: 0;
+	color: #cef104;
+}
