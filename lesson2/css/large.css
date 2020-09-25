@@ -1,4 +1,4 @@
-/* Desktop Views ****************************/
+/*medium css for Week 2 Design Principles file*/
 @media only screen and (min-width: 60em) {
     main {
       grid-template-columns: 1fr 1fr 1fr;
