@@ -19,7 +19,7 @@ footer {
 }
 
 h1 {
-    color: rgb(7, 219, 0);
+    color: rgba(10, 172, 4, 0.787);
     margin-left: -100px;
     text-align: center;
     padding-top: 10px;
@@ -32,6 +32,9 @@ h2 {
     font-family: sans-serif;
     border-bottom: 2px solid yellow;
     padding-bottom: 5px;
+}
+a:hover {
+	color: red;
 }
 
 .dates,
