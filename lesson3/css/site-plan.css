@@ -32,7 +32,7 @@ h1 {
     color: var(--accent2-color);
 }
 header h1{
-    color:#fdfffdb9;
+    color:#1cb407;
     font-size: 45px;
 }
 .name {
@@ -94,7 +94,7 @@ nav ul {
     border-radius: 10px;
 }
 nav a:link, nav a:visited {
-    color: var(--background-color);
+    color:#fcfffb;
     text-decoration: none;
 }
 nav a:hover {
