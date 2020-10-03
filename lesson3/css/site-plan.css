@@ -44,7 +44,7 @@ p {
 }
 h2, h3, h4, h5, h6{
     font-family: var(--heading-font);
-    color: #fffb00;
+    color: #1cb407;
 }
 .subtitle{
     color: var(--secondary-color);
@@ -94,14 +94,14 @@ nav ul {
     border-radius: 10px;
 }
 nav a:link, nav a:visited {
-    color:#fcfffb;
+    color:#c9c8ccea;
     text-decoration: none;
 }
 nav a:hover {
     color: var(--accent2-color);
 }
 #updated {
-    color: yellow;
+    color: rgba(255, 209, 6, 0.767);
     font-size: 12px;
 }
 
