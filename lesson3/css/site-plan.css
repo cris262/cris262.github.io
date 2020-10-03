@@ -32,7 +32,7 @@ h1 {
     color: var(--accent2-color);
 }
 header h1{
-    color: var(--secondary-color);
+    color:#fdfffdb9;
     font-size: 45px;
 }
 .name {
@@ -44,7 +44,7 @@ p {
 }
 h2, h3, h4, h5, h6{
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: #fffb00;
 }
 .subtitle{
     color: var(--secondary-color);
