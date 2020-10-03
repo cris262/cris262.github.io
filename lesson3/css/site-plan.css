@@ -44,7 +44,7 @@ p {
 }
 h2, h3, h4, h5, h6{
     font-family: var(--heading-font);
-    color: #17b603;
+    color: #149103;
 }
 .subtitle{
     color: var(--secondary-color);
