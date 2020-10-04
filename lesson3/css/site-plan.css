@@ -32,7 +32,7 @@ h1 {
     color: var(--accent2-color);
 }
 header h1{
-    color:#1cb407;
+    color:#1000a3e1;
     font-size: 45px;
 }
 .name {
@@ -44,8 +44,9 @@ p {
 }
 h2, h3, h4, h5, h6{
     font-family: var(--heading-font);
-    color: #149103;
+    color: #1000a3e1;
 }
+
 .subtitle{
     color: var(--secondary-color);
 }
@@ -61,11 +62,15 @@ header, footer {
 
 }
 footer {
-    color: #1cb407;
+    color: #2008f5;
     font-family: var(--paragraph-font);
 }
-footer a:link, footer a:visited {
+footer a:link, footer a:visited{
     color: #2008f5;
+    
+}
+footer a:hover{
+    color: #1cb407;
 }
 main {
     background-color: var(--accent1-color);
@@ -87,18 +92,28 @@ nav {
 }
 nav ul {
     list-style: none;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
     background: var(--secondary-color);
-    padding: 2em;
+    padding: .5em;
     border-radius: 10px;
+} 
+nav ul li { 
+    flex: 1 1 100%;
+  }
+nav ul li a{
+    display: block;
+    padding: .5em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
 }
 nav a:link, nav a:visited {
-    color:#80e3fbe1;
+    color:#1000a3e1;
     text-decoration: none;
 }
 nav a:hover {
-    color: var(--accent2-color);
+    color: #DDF4F9;
 }
 #updated {
     color: rgba(255, 209, 6, 0.767);

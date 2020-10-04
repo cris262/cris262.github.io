@@ -32,14 +32,19 @@ h1 {
 }
 h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color); 
+    color: #1000a3e1;
 }
 header h1{
-    color: var(--secondary-color);
+    color:#1000a3e1;
     font-size: 45px;
 }
 header h2{
-    color: var(--secondary-color);
+    color: #1000a3e1;
+}
+img{
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
 header, footer {
     background-color: var(--accent2-color);
@@ -48,7 +53,7 @@ header, footer {
     border-radius: 10px;
 }
 footer {
-    color: #1cb407;
+    color: #2008f5;
     font-family: var(--paragraph-font);
 }
 .site{
@@ -57,9 +62,12 @@ footer {
 footer a:link, footer a:visited {
     color:  rgb(6, 22, 248);
 }
+footer a:hover{
+    color: #1cb407;
+}
 nav {
     font-family: var(--heading-font);
-    color: var(--background-color);
+    color: #1000a3e1;
     font-weight: bold;
     font-size: 20px;
 }
@@ -68,15 +76,15 @@ nav ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
     background: var(--secondary-color);
-    padding: 2em;
+    padding: 1em;
     border-radius: 10px;
 }
 nav a:link, nav a:visited {
-    color: var(--background-color);
+    color: #1000a3e1;
     text-decoration: none;
 }
 nav a:hover {
-    color: var(--accent2-color);
+    color: #DDF4F9;
 }
 #updated {
     color: yellow;
