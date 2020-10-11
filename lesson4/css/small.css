@@ -55,7 +55,11 @@ header {
     align-items: center;
     justify-content: center;
 }
-
+.main-logo {
+    width: 8em;
+    display: block;
+    margin: auto;
+}
 header img {
     width: 75%;
 }
@@ -145,6 +149,14 @@ nav a:hover {
 footer {
     font-family: var(--paragraph-font);
     color:#1000a3e1;
+    font-size: .9rem;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 1.5;
+    margin: auto;
+    max-width: 1150px;
+  }
 }
 
 footer a:link, footer a:visited {
