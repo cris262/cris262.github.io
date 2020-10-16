@@ -155,7 +155,8 @@ footer a:hover{
 
 .forecast {
     flex: 1 1 auto;
-    color: #ffffff;
+    color: #d6d6d8f1;
+    font-weight: bold;
     background-color: #1cb407;
     border-bottom: 1px solid #80e3fbe1;
     text-align: center;
@@ -164,7 +165,7 @@ footer a:hover{
 
 .forecast_day {
     display: block;
-    color: #101fecf1;
+    color: #0515fff1;
     background-color: #80e3fbe1;
     border-top: 1px solid #80e3fbe1;
     padding: 5px;

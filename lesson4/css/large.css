@@ -1,10 +1,7 @@
 @media only screen and (min-width: 60em) {
 
     nav {
-        background: var(--primary-color); /* Old browsers */
-        
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#aa0000',GradientType=0 ); /* IE6-9 */    
-    }
+        background: var(--primary-color); /* Old browsers */}
         
     nav button {display: none;}
         
