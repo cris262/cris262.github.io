@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, viewport-fit=cover">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>Preston, Idaho</title>
+    <meta name="description" content="Preston Town Page, Idaho. Class: WDD230 at BYU-Idaho.">
+    <link rel="shortcut icon" href="images/118961-128.png">
+
+</head>
+<body>
+    <div id="pancake">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+        <picture class="logoimg">
+            <source media="(max-width: 200px)" srcset="images/logo100.png">
+            <source media="(max-width: 800px)" srcset="images/logo11.png">
+            <img src="images/118961-128.png" alt="logo">
+        </picture>
+        <section class="heading">
+            <h1>Upfront Weather</h1>
+            <div class="motto">A change in the weather is sufficient to recreate the world and ourselves.</div>
+            </section>
+        
+    </header>
+    
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    <main>
+        <h2 class="town">Preston Idaho</h2>
+        <div class="hero-div">
+            <picture class="bannerimg">
+                <source media="(max-width: 640px)" srcset="images/wdd230_image_franklinOriginal.jpg">
+                <source media="(max-width: 961px)" srcset="images/heromd614x298.jpg">
+                <img src="images/herolg880x428.jpg" alt="hero banner image">
+                
+            </picture>
+
+            <section class="weather-overlay">
+                <h2>Weather Summary</h2>
+                <span>Currently: </span>
+                <span class="colweight">Raining</span>
+                <span>High</span>
+                <span class="colweight">
+                    <span class="temp">54</span> &#176;F</span>
+                <span>Wind Chill: </span>
+                <span class="colweight" id="chill">N/A</span>
+                <span>Humidity: </span>
+                <span class="colweight">95%</span>
+                <span>Wind Speed: </span>
+                <span class="colweight">
+                    <span class="wind-speed">12</span> mph</span>
+
+            </section>
+        </div>
+        
+            <table>
+                <h3 class="forecast_head">5 Day Forecast</h3>
+                <div id="forecast_box">
+                    <div class="forecast">
+                        <span class="forecast_day">Wed</span>
+                        <img class="forecast_icon" src="images/images (1).png" alt="sun icon">
+                        <span class= "forecast_temp">89°F</span>
+                    </div>
+                    <div class="forecast">
+                        <span class="forecast_day">Thu</span>
+                        <img class="forecast_icon" src="images/images (1).png" alt="sun icon">
+                        <span class= "forecast_temp">87°F</span>
+                    </div>
+                    <div class="forecast">
+                        <span class="forecast_day">Fri</span>
+                        <img class="forecast_icon" src="images/air-clipart-wind-speed-9 (1).jpg" alt="windy icon">
+                        <span class= "forecast_temp">78°F</span>
+                    </div>
+                    <div class="forecast">
+                        <span class="forecast_day">Sat</span>
+                        <img class="forecast_icon" src="images/images (2).png" alt="cloud icon">
+                        <span class= "forecast_temp">75°F</span>
+                    </div>
+                    <div class="forecast">
+                        <span class="forecast_day">Sun</span>
+                        <img class="forecast_icon" src="images/images.png" alt="rain icon">
+                        <span class= "forecast_temp">72°F</span>
+                    </div>
+                </div>
+            </table></div>
+        <br>
+        <article class="article">
+            <br>
+            <picture class="articleimg">
+                <source media="(max-width: 640px)" srcset="images/park195.130.jpg">
+                <source media="(max-width: 961px)" srcset="images/park390.260.jpg">
+                <img src="images/park440.293.jpg" alt="article image">
+                
+            </picture>
+            <h2>Outdoor Meditation.</h2>
+            <br>
+            
+                <br>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <br>
+        </article>
+        <div class="contact">
+            <img src="images/Screenshot 2020-10-17 203608.jpg" alt="map of places" class="map">
+            <p class="location"><strong>Upfront Weather</strong><br>
+            <span class="address">&#127980; 00 Main st East -- Preston, ID 83263</span>
+            <span class="phone">&#128222; 999.999.9999</span>
+            <span class="email">&#128231; Upfrontweather@ttr.com</span>
+            <picture class="social">
+            <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="images/1025px-Instagram-Icon.png" alt="instagram"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="images/de1c91788be0d791135736995109272a.png" alt="youtube"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-logo-3.png" alt="facebook"></a>
+            </picture>
+            </p>
+        </div>
+    </main>
+    <footer>
+        <div class="lastInfo">
+            &#169;Upfront Weather | Attributions |<br class='responsive'> <a href="https://cris262.github.io/">Cristians Cantarero</a>
+            <div id="updated"></div>
+    </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/lesson6.js"></script>
+    <script src="js/windchill.js"></script>
+
+</body>
+</html>

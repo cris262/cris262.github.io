@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial|Manrope');
+:root{
+    --primary-color: #edf110; 
+    --secondary-color: #1cb407;
+    --accent1-color: #fcfcee; 
+    --accent2-color: #80e3fbe1; 
+    --background-color: #DDF4F9;
+
+    --heading-font: 'Questrial', sans-serif;
+    --paragraph-font: 'Manrope', sans-serif;
+}
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+html, body {
+    background-color: var(--accent2-color);
+}
+
+main {
+
+    background-color: var(--accent1-color);
+}
+
+header, footer {
+    background-color: var(--accent2-color);
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+footer {
+    font-family: var(--paragraph-font);
+    color:#1000a3e1;
+    font-size: .9rem;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 1.5;
+    margin: auto;
+    max-width: 1150px;
+  }
+footer a:link, footer a:visited {
+    color:#1000a3e1;
+}
+footer a:hover{
+    color: #1cb407;
+}
+
+/* -------header/footer items------- */
+
+br.responsive{
+    display: inline;
+}
+.contact {
+    background-color: #e3f2e9;
+    color: #1000a3e1;
+}
+div.contact {
+    margin-top: 1em;
+}
+picture.social::before{
+    content: "\A\A\A";
+    white-space: pre;
+}
+span.address::before{
+    content: "\A\A\A";
+    white-space: pre;
+}
+span.address::after{
+    content: "\A\A";
+    white-space: pre;
+}
+span.phone::after{
+    content: "\A\A";
+    white-space: pre;
+}
+.map {
+    display: none;
+}
+.location {
+    font-size: 12px;
+    text-align: center;
+    padding: .5em;
+}
+
+
+
+/* -----------nav------------ */
+
+nav ul li a:hover{background-color: #fcfcee;}
+
+nav ul.hide {display: none;}
+
+nav ul li.active a{background-color: var(--accent1-color); color:#038fb3e1;;}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color:#1000a3e1;
+    border-top: 1px solid #1000a3e1;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    color:#1000a3e1;
+    font-weight: bold;
+}
+
+nav {
+    font-family: var(--heading-font);
+    font-size: 20px;
+    line-height: 35px;
+}
+
+nav ul {
+    list-style: none;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+    background: var(--secondary-color);
+    padding: 0;
+    margin: 0;
+}
+
+nav a:link, nav a:visited {
+    color:#1000a3e1;
+    text-decoration: none;
+}
+nav a:hover {
+    color: var(--accent2-color);
+}
+
+
+
+
+/* ---------headings--------- */
+
+.town{
+    padding: 1em;
+}
+h2 {
+    font-size: 14px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading h1 {
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+    margin: 0 0 0 17px;
+}
+h2 {
+    font-family: var(--heading-font);
+    color:#1000a3e1;
+    text-align: center;
+}
+.weather-overlay h2 {
+    color:#1000a3e1;
+    margin: 0;
+    text-decoration: underline;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+    font-size: .7em;
+}
+.motto {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color:#1000a3e1;
+    margin-left: 20px;
+    font-size: 1em;
+    font-family: var(--paragraph-font);
+}
+
+
+
+
+/* --------table-------- */
+
+.forecast_head {
+    text-align: center;
+    color:#1000a3e1;
+}
+
+#forecast_box {
+    display: flex;
+    flex-flow: wrap;
+    border-right: 1px solid #e3f306e1;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.forecast {
+    flex: 1 1 auto;
+    color: #d6d6d8f1;
+    font-weight: bold;
+    background-color: #1cb407;
+    border-bottom: 1px solid #80e3fbe1;
+    text-align: center;
+    border-left: 1px solid #80e3fbe1;
+}
+
+.forecast_day {
+    display: block;
+    color: #0515fff1;
+    background-color: #80e3fbe1;
+    border-top: 1px solid #80e3fbe1;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.forecast_icon {
+    border-radius: 100px;
+    padding: .25rem;
+    max-width: 10vw;
+    height: auto;
+    background-color: #d3f801;
+}
+
+.forecast_temp {
+    display: block;
+    padding: 0 5px 5px;
+    font-size: .9rem;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* --------article------- */
+
+.article {
+    border: 1px solid var(--accent2-color);
+    background-color: #e3f2e9;
+    padding: .5em;
+    color:#1000a3e1;
+}
+.author {
+    font-size: 12px;
+    font-size: 14px;
+}
+.paragraph {
+    text-align: left;
+}
+article picture.articleimg img{
+    box-shadow: 0px 0px 10px black;
+    margin: 10px auto 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+main p, section, article{
+    font-family: var(--paragraph-font);
+    margin: 0;
+}
+.paragrph::after{
+    content: "\A";
+    white-space: pre;
+}
+
+
+
+
+
+/* --------overlay------- */
+
+.hero-div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.weather-overlay {
+    color:#1000a3e1;
+    position: absolute;
+    justify-self: left;
+    top: .5em;
+    left: 3.5em;
+    padding: .5em;
+    background: radial-gradient(#f1f9f4, #80e2fb80);
+    border: 1px solid var(--accent2-color);
+    box-shadow: 0 0 30px #1000a3e1;
+    opacity: .8;
+}
+.colweight {
+    color: #1000a3e1;
+    font-weight: bold;
+}
+    .colweight::after{
+        content: "\A";
+        white-space: pre;
+    }
+.bannerimg::after{
+    content: "\A\A";
+    white-space: pre;
+}
+
+
+
+/* -------id-------- */
+
+#pancake {
+    display: none;
+    font-size: 1.2em;
+    margin: 5px;
+    padding: 3px;
+    font-family: var(--paragraph-font);
+}
+div#pancake {
+    background-color: var(--background-color);
+}
