@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, viewport-fit=cover">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>Gallery</title>
+    <meta name="description" content="Weather page for Preston, Idaho. Class: WDD230 at BYU-Idaho.">
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+</head>
+<body>
+    <div id="pancake">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+        <picture class="logoimg">
+            <source media="(max-width: 639px)" srcset="images/logo100.png">
+            <source media="(max-width: 958px)" srcset="images/logo11.png">
+            <img src="images/118961-128.png"logo">
+        </picture>
+            <section class="heading">
+            <h1>Upfront Weather</h1>
+            <div class="moto"> change in the weather is sufficient to recreate the world and ourselves.</div>
+            </section>
+        
+    </header>
+    
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li class="active"><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    <main>
+        <h2 class="left-align">Weather Gallery</h2>
+
+        <div class="container">
+            <div class="card">
+                <picture class="card-img">
+                        <source media="(max-width: 640px)" srcset="images/placeholder.png" data-srcset="images/Sunny_Day-sm.jpg">
+                        <source media="(max-width: 1104px)" srcset="images/placeholder.png" data-srcset="images/Sunny_Day-mid.jpg">
+                        <img src="images/placeholder.png" data-src="images/Sunny_Day.jpg" alt="bird tree" style="width:auto;">
+                </picture>
+                <p>Sunny Landscape</p>
+            </div>
+            
+            <div class="card">
+                <picture class="card-img">
+                    <source media="(max-width: 640px)" srcset="images/placeholder.png" data-srcset="images/snowtreessmall.jpg">
+                    <source media="(max-width: 1104px)" srcset="images/placeholder.png" data-srcset="images/snowtreesmidd.jpg">
+                    <img src="images/placeholder.png" data-src="images/snowtrees.jpg" alt="holy ray" style="width:auto;">
+                </picture>
+                <p>Snowy Trees</p>
+            </div>
+
+            <div class="card">
+                <picture class="card-img">
+                    <source media="(max-width: 640px)" srcset="images/placeholder.png" data-srcset="images/falltreessmall.jpg">
+                    <source media="(max-width: 1104px)" srcset="images/placeholder.png" data-srcset="images/falltreesmidd.jpg">
+                    <img src="images/placeholder.png" data-src="images/falltrees.jpg" alt="rain tree" style="width:auto;">
+                </picture>
+                <p>Autumn Trees</p>
+            </div>
+
+            <div class="card">
+                <picture class="card-img">
+                    <source media="(max-width: 640px)" srcset="images/placeholder.png" data-srcset="images/rain-treessmall.jpg">
+                    <source media="(max-width: 1104px)" srcset="images/placeholder.png" data-srcset="images/rain-treesmidd.jpg">
+                    <img src="images/placeholder.png" data-src="images/rain-trees.jpg" alt="snow tree" style="width:auto;">
+                </picture>
+                <p>Rainy Leaves</p>
+            </div>
+
+            <div class="card">
+                <picture class="card-img">
+                    <source media="(max-width: 640px)" srcset="images/placeholder.png" data-srcset="images/sunset-snowsm.jpg">
+                    <source media="(max-width: 1104px)" srcset="images/placeholder.png" data-srcset="images/sunset-snowmid.jpg">
+                    <img src="images/placeholder.png" data-src="images/sunset-snow.jpg" alt="sun cloud" style="width:auto;">
+                </picture>
+                <p>Sunset View</p>
+            </div>
+
+            <div class="card">
+                <picture class="card-img">
+                    <source media="(max-width: 640px)" srcset="images/placeholder.png" data-srcset="images/lightsm.jpg">
+                    <source media="(max-width: 1104px)" srcset="images/placeholder.png" data-srcset="images/lightmid.jpg">
+                    <img src="images/placeholder.png" data-src="images/light.jpg" alt="windmill and rainbow" style="width:auto;">
+                </picture>
+                <p>Lightning Day</p>
+            </div>
+        </div>
+
+
+    </main>
+    <footer>
+        <div class="lastInfo">
+            &#169;Upfront Weather | Attributions |<br class='responsive'> <a href="https://cris262.github.io/">Cristians Cantarero</a>
+            <div id="updated"></div>
+    </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/lesson7.js"></script>
+    <script src="js/gallery.js"></script>
+
+</body>
+</html>
