@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial|Manrope');
+:root{
+    --primary-color: #edf110; 
+    --secondary-color: #1cb407;
+    --accent1-color: #fcfcee; 
+    --accent2-color: #80e3fbe1; 
+    --background-color: #DDF4F9;
+
+    --heading-font: 'Questrial', sans-serif;
+    --paragraph-font: 'Manrope', sans-serif;
+}
+
+
+body {
+    text-align: center;
+}
+main {
+    margin: 10px;
+    background-color: var(--accent1-color);
+    box-shadow: 0 0 20px var(--secondary-color);
+    padding: .5rem;
+    padding-bottom: 1rem;
+}
+p {
+    font-family: var(--paragraph-font);
+    margin-top: -10px;
+    color:#1000a3e1;
+}
+footer {
+    font-family: var(--paragraph-font);
+    padding: 2rem;
+    background-color: var(--accent2-color);
+    color:#1000a3e1;
+}
+
+/* -------headings------- */
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color:#1000a3e1;
+}
+header {
+    background-color: var(--accent2-color);
+    padding: 2rem;
+}
+
+/* ---------image--------- */
+img {
+    width: 50%;
+    box-shadow: 0 0 15px var(--secondary-color);
+}
+
+
+
+/* ----------grid---------- */
+
+.cards {
+    display: grid;
+    grid-template-columns: 100%;
+}
+section {
+    margin: 5px;
+    padding-bottom: 1rem;
+    background-color: var(--background-color);
+    border: 3px solid #edf110;
+}
+
+@media only screen and (min-width: 40em) {
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
