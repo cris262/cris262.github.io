@@ -284,11 +284,13 @@ div#pancake {
 
 .wireframe {
     font-family: var(--heading-font);
+    color:#1000a3e1;
 }
 .paraframe {
     font-family: var(--paragraph-font);
     font-size: 20px;
     padding-left: 3rem;
+    color:#1000a3e1;
 }
 .paraframe img {
     width: 480px;
